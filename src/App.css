@@ -1,0 +1,61 @@
+/* App.css */
+body, html {
+    background-image: url('./imagenes/galaxia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden; /* Para evitar la barra de desplazamiento horizontal */
+}
+
+.app {
+    width: 100%;
+    max-width: 600px; /* Ajusta el máximo ancho del contenedor principal */
+    min-height: 100vh; /* Asegura que ocupe al menos el tamaño de la pantalla visible */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto; /* Permite desplazamiento vertical cuando sea necesario */
+}
+
+.david-logo-contenedor {
+    margin-top: 20px; /* Ajusta el margen superior para separar del borde superior */
+    margin-bottom: 20px; /* Ajusta el margen inferior para separar del contenido siguiente */
+    text-align: center; /* Alinea el contenido al centro */
+}
+
+.david-logo {
+    height: 100px; /* Ajusta la altura del logo según sea necesario */
+}
+
+.contenedor-calculadora {
+    width: 90%; /* Utiliza porcentajes para un diseño más adaptable */
+    max-width: 400px; /* Ajusta el máximo ancho de la calculadora */
+    padding: 24px;
+    background-color: rgba(0, 0, 0, 0.5); /* Añade un fondo semitransparente */
+    backdrop-filter: blur(10px); /* Ajusta el efecto de desenfoque */
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Añade una sombra suave */
+}
+
+.fila {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 18px; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+    color: white;
+    text-align: center; /* Añade alineación centrada */
+}
